@@ -3,6 +3,9 @@ class MyWorker
 
   def perform(name, count)
 
+    logger.info 'in MyWorker#perform'
+    #throw "here"
+
   end
 
 end
